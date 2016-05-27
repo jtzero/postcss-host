@@ -36,3 +36,17 @@ Purpose? work around for this https://github.com/angular/angular/issues/7108
 ```js
 postcss([ require('postcss-host-context') ])
 ```
+
+# Gulp example
+
+```js
+var processorArray = [
+    require('postcss-host-context')()
+];
+
+gulp.task('pipe-styles', function () {
+    gulp.src('src/assets/*.css')
+        .pipe(postcss(processorArray))
+        .pipe(gulp.dest('dist/assets/'))
+});
+``
