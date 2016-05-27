@@ -1,4 +1,4 @@
-# PostCSS HostContext
+# PostCSS HostContext [![Codeship Status for postcss-host-context](ci)](ci-prj)
 
 <img align="right" width="135" height="95"
      title="Philosopher’s stone, logo of PostCSS"
@@ -9,6 +9,8 @@
 Purpose? work around for this https://github.com/angular/angular/issues/7108
 
 [PostCSS]:                    https://github.com/postcss/postcss
+[ci]:                         https://codeship.com/projects/8262bf80-0661-0134-3de8-0e3a4704bd9d/status?branch=master
+[ci-prj]                      https://codeship.com/projects/154703
 
 
 ```css
