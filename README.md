@@ -37,7 +37,7 @@ Purpose? work around for this https://github.com/angular/angular/issues/7108
 postcss([ require('postcss-host-context') ])
 ```
 
-# Gulp example
+### Gulp example
 
 ```js
 var processorArray = [
