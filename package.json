@@ -1,0 +1,30 @@
+{
+  "name": "postcss-host-context",
+  "version": "1.0.0",
+  "description": "PostCSS plugin to add :host-context to every selector",
+  "main": "postcss-host-context.js",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "host-context"
+  ],
+  "author": "jtzero <jthomaszero511@yahoo.com>",
+  "license": "MIT",
+  "repository": "https://github.com/jtzero/postcss-host-context",
+  "bugs": {
+    "url": "https://github.com/jtzero/postcss-host-context/issues"
+  },
+  "homepage": "https://github.com/jtzero/postcss-host-context",
+  "dependencies": {
+    "postcss": "^5.0.21"
+  },
+  "devDependencies": {
+    "ava": "^0.15.1",
+    "eslint": "^2.10.2",
+    "eslint-config-postcss": "^2.0.2"
+  },
+  "scripts": {
+    "test": "ava && eslint *.js"
+  }
+}
