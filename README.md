@@ -1,4 +1,4 @@
-# PostCSS HostContext [![Build Status][ci-img]][ci]
+# PostCSS HostContext
 
 <img align="right" width="135" height="95"
      title="Philosopher’s stone, logo of PostCSS"
