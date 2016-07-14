@@ -1,21 +1,21 @@
 {
-  "name": "postcss-host-context",
+  "name": "postcss-host",
   "version": "1.0.0",
-  "description": "PostCSS plugin to add :host-context to every selector",
-  "main": "postcss-host-context.js",
+  "description": "PostCSS plugin to add :host to every selector",
+  "main": "postcss-host.js",
   "keywords": [
     "postcss",
     "css",
     "postcss-plugin",
-    "host-context"
+    "host"
   ],
   "author": "jtzero <jthomaszero511@yahoo.com>",
   "license": "MIT",
-  "repository": "https://github.com/jtzero/postcss-host-context",
+  "repository": "https://github.com/jtzero/postcss-host",
   "bugs": {
-    "url": "https://github.com/jtzero/postcss-host-context/issues"
+    "url": "https://github.com/jtzero/postcss-host/issues"
   },
-  "homepage": "https://github.com/jtzero/postcss-host-context",
+  "homepage": "https://github.com/jtzero/postcss-host",
   "dependencies": {
     "postcss": "^5.0.21"
   },
