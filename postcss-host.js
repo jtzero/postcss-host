@@ -12,10 +12,10 @@ module.exports = postcss.plugin('postcss-host', function () {
                 } else {
                     replaced.push(selector);
                 }
-           });
-           if ( replaced.length ) {
-               rule.selectors = replaced;
-           }
+            });
+            if ( replaced.length ) {
+                rule.selectors = replaced;
+            }
        });
     };
 });
