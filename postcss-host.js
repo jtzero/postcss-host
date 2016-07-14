@@ -16,6 +16,6 @@ module.exports = postcss.plugin('postcss-host', function () {
             if ( replaced.length ) {
                 rule.selectors = replaced;
             }
-       });
+        });
     };
 });
