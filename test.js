@@ -19,3 +19,8 @@ test("doesn't double :host selector", t => {
     return run(t, ':host a {}',
                   ':host a {}');
 });
+
+test("doesn't modify :host-context selector", t => {
+    return run(t, ':host-context a {}',
+                  ':host-context a {}');
+});
