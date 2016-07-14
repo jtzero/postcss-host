@@ -1,10 +1,10 @@
-# PostCSS HostContext [![Codeship Status for postcss-host-context][ci]][ci-prj]
+# PostCSS Host [![Codeship Status for postcss-host][ci]][ci-prj]
 
 <img align="right" width="135" height="95"
      title="Philosopher’s stone, logo of PostCSS"
      src="http://postcss.github.io/postcss/logo-leftp.svg">
 
-[PostCSS] plugin to add `:host-context` selector to every selector.
+[PostCSS] plugin to add `:host` selector to every selector.
 
 Purpose? work around for this https://github.com/angular/angular/issues/7108
 
@@ -14,7 +14,7 @@ Purpose? work around for this https://github.com/angular/angular/issues/7108
 
 
 ```css
-:host-context h3 {
+:host h3 {
     outline: 0;
 }
 .button:hover {
@@ -23,10 +23,10 @@ Purpose? work around for this https://github.com/angular/angular/issues/7108
 ```
 
 ```css
-:host-context h3 {
+:host h3 {
     outline: 0;
 }
-:host-context .button:hover {
+:host .button:hover {
     background: red;
 }
 ```
@@ -34,14 +34,14 @@ Purpose? work around for this https://github.com/angular/angular/issues/7108
 ## Usage
 
 ```js
-postcss([ require('postcss-host-context') ])
+postcss([ require('postcss-host') ])
 ```
 
 ### Gulp example
 
 ```js
 var processorArray = [
-    require('postcss-host-context')()
+    require('postcss-host')()
 ];
 
 gulp.task('pipe-styles', function () {
