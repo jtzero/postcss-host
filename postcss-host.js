@@ -6,8 +6,8 @@ module.exports = postcss.plugin('postcss-host', function () {
            var replaced = [];		
            rule.selectors.forEach(function (selector) {
                 var idx = selector.indexOf(':host');
-                if (idx === -1 && selector.indexOf(':host-context') !== idx) {		
-                  replaced.push(':host' + selector);		
+                if (idx === -1 || selector.indexOf(':host-context') !== idx) {		
+                  replaced.push(':host ' + selector);		
                 } else {		
                   replaced.push(selector);		
                 }		
