@@ -11,11 +11,11 @@ function run(t, input, output) {
         });
 }
 
-test('adds :host-context selector', t => {
-    return run(t, 'h3, b {}', ':host-context h3, :host-context b {}');
+test('adds :host selector', t => {
+    return run(t, 'h3, b {}', ':host h3, :host b {}');
 });
 
-test("doesn't double :host-context selector", t => {
-    return run(t, ':host-context a {}',
-                  ':host-context a {}');
+test("doesn't double :host selector", t => {
+    return run(t, ':host a {}',
+                  ':host a {}');
 });
